@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+    align-items: center;
+}
+
+img {
+    width: 250px;
+    height: 250px;
+}
+
+.heading {
+    background-color: rgb(79, 77, 77);
+    padding: 10px;
+    color: white;
+    text-align: center;
+}
+
+.heading p {
+    margin: 0;
+    font-size: 32px;
+}
