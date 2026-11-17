@@ -1,0 +1,206 @@
+/* :root {
+    --primary-color: rgb(46, 191, 232);
+    --secondary: rgba(165, 42, 42, 0.712);
+    --accent-color: rgb(252, 17, 252);
+    --heading-font: "Times New Roman", "Georgia", serif;
+    --body-font: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--body-font);
+    color: var(--accent-color);
+}
+
+header,
+main,
+footer {
+    width: 840px;
+    margin: 0 auto;
+}
+
+h1,
+h2 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+nav,
+p,
+section,
+article {
+    margin: 16px;
+    padding: 8px;
+}
+
+.socialmedia a {
+    text-decoration: none;
+}
+
+.hero {
+    position: relative;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+h1 {
+    position: absolute;
+    top: 20px;
+    width: 100%;
+    text-align: center;
+    opacity: 0.7;
+    background-color: var(--accent-color);
+    color: black;
+}
+
+article {
+    position: absolute;
+
+}
+
+.hero article img {
+    float: right;
+    width: 125px;
+} */
+
+:root {
+    --primary-color: rgb(46, 191, 232);
+    --secondary: rgba(165, 42, 42, 0.712);
+    --accent-color: rgb(62, 4, 62);
+    --heading-font: "Times New Roman", Georgia, serif;
+    --body-font: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--body-font);
+    color: black;
+}
+
+/* Center the webpage */
+header,
+main,
+footer {
+    width: 840px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+/* Header */
+header {
+    padding: 15px;
+}
+
+header img {
+    width: 100px;
+    height: auto;
+}
+
+nav {
+    padding: 10px;
+}
+
+nav a {
+    color: var(--primary-color);
+    display: block;
+    padding: 3px;
+    text-decoration: none;
+}
+
+/* Hero section */
+.hero {
+    position: relative;
+    margin-top: 15px;
+}
+
+.hero > img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+/* Heading on the image */
+.hero h1 {
+    position: absolute;
+    top: 25px;
+    width: 100%;
+    text-align: center;
+    padding: 12px;
+    background-color: rgba(91, 5, 91, 0.7);
+    color: white;
+    font-family: var(--heading-font);
+}
+
+/* Article at the bottom of the image */
+.hero article {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+    padding: 15px;
+    background-color: rgba(165, 42, 42, 0.7);
+    color: white;
+    overflow: auto;
+}
+
+.hero article img {
+    float: right;
+    width: 125px;
+    height: auto;
+    margin-left: 15px;
+}
+
+/* Sections */
+section {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+section h2 {
+    background-color: var(--secondary);
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-family: var(--heading-font);
+}
+
+section p {
+    padding: 15px;
+    line-height: 1.6;
+}
+
+/* Footer */
+footer {
+    border-top: 1px solid #ddd;
+    padding: 15px;
+}
+
+.socialmedia {
+    display: flex;
+    gap: 10px;
+    padding: 10px 0;
+}
+
+.socialmedia a {
+    text-decoration: none;
+}
+
+.socialmedia img {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+}
