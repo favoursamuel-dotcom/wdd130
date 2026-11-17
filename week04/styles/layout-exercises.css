@@ -23,14 +23,17 @@ div {
 
 .flex {
     background-color: #aba;
-    /* write declarations here */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
 }
 
 .grid {
     background-color: #abb;
-    /* write declarations here */
-
+    display: grid;
+    place-items: center;
 }
 
 .container2 {
